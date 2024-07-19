@@ -1,0 +1,79 @@
+body {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:grey;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calc-body {
+  padding: 3px;
+  margin:6px;
+  background-color: red;
+  width:90%;
+  height:200%;
+  border: solid black 3px;
+  border-radius: 20px;
+}
+
+h2 {
+  color: #FF1405;
+  background-color: #FFB300;
+  border: solid red 2px;
+}
+
+ #result {
+   width: 90%;
+   margin: 5px;
+   padding: 10px;
+   background-color: #fff;
+   color:  blue;
+   border: solid black 3px;
+   border-radius: 10px;
+  
+}
+
+ 
+
+
+#delete-btn {
+  padding: 10px;
+  width: 70px;
+  border: solid  black 2px;
+  border-radius: 20px;
+  background-color: #5D209A;
+  color: #fff;
+}
+#delete-btn:hover,
+#equals:hover {
+  background-color: yellow;
+  border: solid purple 3px;
+  color: #000;
+}
+
+#display {
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  border: solid black 2px;
+  border-radius: 100px;
+  background-color:purple;
+  color: #fff;
+}
+
+#display:hover {
+  background-color: blue;
+  border: solid purple 5px;
+  color: #fff;
+}
+
+#equals {
+  padding: 10px;
+  margin: 10px;
+  width: 60px;
+  height: 40px;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: #5D209A;
+  color: #fff;
+}
